@@ -170,7 +170,4 @@ Zentravo automatically falls back to a **2D top view** when WebGL is not availab
 Adapted for **Zentravo** by **Glazentri**.
 
 The original **İstif** components are copyright © 2026 **Cuma Ali Dirik** and retain their **MIT Licence**:
-
-* **Original İstif project** *(add link)*
-* **Original İstif source** *(add link)*
 * **İstif licence notice** *(add link)*
