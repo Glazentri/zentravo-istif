@@ -1,5 +1,3 @@
-&lt;div align=&quot;center&quot;&gt;
-
 # Zentravo by Glazentri
 
 **Browser-Based 3D Container & Truck Load Planning for Glazing and Construction**
