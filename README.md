@@ -10,8 +10,7 @@
 
 **Zentravo** is a free, browser-based **3D container and truck load planner** built specifically for **window, door, glazing, and construction logistics**. Created by **Glazentri** as a specialised build of **İstif** (the open-source load planner by Cuma Ali Dirik), Zentravo helps fabricators, suppliers, and transport teams plan how upright windows, doors, timber crates, A-frame stillages, and building materials fit from **container to truck to site**—with zero desktop installation.
 
-> [!TIP]
-> **Looking for a visual preview?** Add a screenshot or GIF of the 3D container studio here (`![Zentravo 3D Load Planner](docs/preview.png)`) once committed to your repo.
+> **Tip:** Add a screenshot or GIF of the 3D container studio here (`![Zentravo 3D Load Planner](docs/preview.png)`) once committed to your repository.
 
 ---
 
@@ -43,7 +42,7 @@ flowchart LR
 2. **Model your cargo** — Add upright windows, doors, timber crates, or A-frame stillages; group items inside crates; and tag each package by supplier and consignment.
 3. **Pack & validate fit** — Run auto-pack for unplaced cargo, optimise while preserving locked packages and the packages supporting them, or adjust placements manually in 3D.
 4. **Verify loading sequence** — Step through the loading order in interactive 3D (or 2D top view if WebGL is unavailable).
-5. **Plan site deliveries & dispatch** — Reuse container cargo for multi-stop truck runs, estimate trips, travel time, fuel, and unloading costs, and export dispatch documents.
+5. **Plan site deliveries & dispatch** — Reuse container cargo for multi-stop truck runs, estimate trip time, fuel, and unloading costs, and export dispatch documents.
 
 ---
 
@@ -86,7 +85,7 @@ Generic 3D bin-packing software assumes every item is a rigid, flat-packed carto
 
 ## What Glazentri Changed (Zentravo vs. Original İstif)
 
-Zentravo builds on the core packing engine, interactive 3D view, step-by-step loading sequence, and manual placement tools from the [Original İstif project](https://www.google.com/search?q=REPLACE_WITH_ORIGINAL_ISTIF_PROJECT_URL).
+Zentravo builds on the core packing engine, interactive 3D view, step-by-step loading sequence, and manual placement tools from the **Original İstif project** *(add link)*.
 
 | Area | Glazentri Adaptation in Zentravo |
 | :--- | :--- |
@@ -97,7 +96,7 @@ Zentravo builds on the core packing engine, interactive 3D view, step-by-step lo
 | **Truck delivery & handling** | Reuses container cargo for multi-stop site deliveries; estimates trips, travel time, fuel, and unloading costs across manual, forklift, or combined handling. |
 | **Dispatch documents** | Prints supplier-branded cargo labels, generates load sheets, exports CSV manifests, and saves JSON plan backups. |
 
-See the [Glazentri change log](https://www.google.com/search?q=REPLACE_WITH_GLAZENTRI_CHANGELOG_URL) for full release notes.
+See the **Glazentri change log** *(add link)* for full release notes.
 
 ---
 
@@ -119,8 +118,7 @@ Open in your browser:
 http://localhost:8080/container-studio/
 ```
 
-> [!NOTE]
-> If WebGL is disabled or unavailable in your browser, Zentravo automatically provides a **2D top view** so you can keep planning.
+> **Note:** If WebGL is disabled or unavailable in your browser, Zentravo automatically provides a **2D top view** so you can keep planning.
 
 ### Option 2: Rebuild from Source & Run Tests
 
@@ -136,7 +134,7 @@ npm test
 
 ## Standalone vs. WinMatch Integration
 
-When running inside **[WinMatch](https://www.google.com/search?q=REPLACE_WITH_WINMATCH_URL)**, Zentravo connects directly to your project schedule while preserving your shipping edits.
+When running inside **WinMatch** *(add link)*, Zentravo connects directly to your project schedule while preserving your shipping edits.
 
 | Capability | Standalone Browser App | Inside WinMatch Host |
 | :--- | :--- | :--- |
@@ -152,40 +150,20 @@ When running inside **[WinMatch](https://www.google.com/search?q=REPLACE_WITH_WI
 
 ## Frequently Asked Questions
 
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;Does Zentravo require installation, a backend server, or API keys?&lt;/strong&gt;&lt;/summary&gt;
-
+### Does Zentravo require installation, a backend server, or API keys?
 No. The standalone planner runs locally in your browser, saves drafts in browser storage, and runs all packing calculations client-side with no backend or API credentials.
 
-&lt;/details&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;How does door-fit checking prevent loading-day surprises?&lt;/strong&gt;&lt;/summary&gt;
-
+### How does door-fit checking prevent loading-day surprises?
 A crate or stillage can sometimes fit inside a container or truck body yet still be too tall or wide to pass through the rear or side doors. Zentravo checks package width and height against both the internal space and the actual door opening.
 
-&lt;/details&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;Can I lock specific stillages or crates before re-optimising?&lt;/strong&gt;&lt;/summary&gt;
-
+### Can I lock specific stillages or crates before re-optimising?
 Yes. When you run optimisation, Zentravo preserves locked packages as well as any packages underneath that support them.
 
-&lt;/details&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;Which Australian truck configurations are supported?&lt;/strong&gt;&lt;/summary&gt;
-
+### Which Australian truck configurations are supported?
 Zentravo includes Australian vehicle references and editable dimensions for **tautliners**, **tray trucks**, **mezzanines**, and **B-double combinations**, alongside standard shipping containers.
 
-&lt;/details&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;What happens if WebGL is unavailable on my device?&lt;/strong&gt;&lt;/summary&gt;
-
+### What happens if WebGL is unavailable on my device?
 Zentravo automatically falls back to a **2D top view** when WebGL is not available.
-
-&lt;/details&gt;
 
 ---
 
@@ -195,6 +173,6 @@ Adapted for **Zentravo** by **Glazentri**.
 
 The original **İstif** components are copyright © 2026 **Cuma Ali Dirik** and retain their **MIT Licence**:
 
-* [Original İstif project](https://www.google.com/search?q=REPLACE_WITH_ORIGINAL_ISTIF_PROJECT_URL)
-* [Original İstif source](https://www.google.com/search?q=REPLACE_WITH_ORIGINAL_ISTIF_SOURCE_URL)
-* [İstif licence notice](https://www.google.com/search?q=REPLACE_WITH_ISTIF_LICENCE_URL)
+* **Original İstif project** *(add link)*
+* **Original İstif source** *(add link)*
+* **İstif licence notice** *(add link)*
